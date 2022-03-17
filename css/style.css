@@ -127,6 +127,11 @@ header{
     text-decoration: none;
     font-weight: 500;
 }
+/* seventh part */
+footer{
+    background-color: var(--blue);
+    height: 500px;
+}
     
     
 
