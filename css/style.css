@@ -1,0 +1,42 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.header-top{
+    background-color: black;
+
+}
+
+    
+ .img-container{
+     width: 5%;
+     padding: 10px;
+ }  
+   
+
+
+.img-card{
+    width: 100%;
+}
+
+
+.btn-round{
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+#jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    he
+    margin-top: 120px;
+}
+    
+    
+    
+
+    
+    
