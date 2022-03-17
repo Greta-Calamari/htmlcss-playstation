@@ -142,8 +142,9 @@ footer{
 }
 
 .col-6 ul{
-    
+    color: white;
     list-style:none;
+    line-height: 40px;
 }
     
     
