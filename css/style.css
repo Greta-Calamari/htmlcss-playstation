@@ -117,7 +117,16 @@ header{
     font-weight: 500;
 }
  /* sixth part  */
- 
+
+ #ps-now{
+     background-color: var(--dark-blue);
+     
+ }
+ .btn-white{
+    background-color:white;
+    text-decoration: none;
+    font-weight: 500;
+}
     
     
 
