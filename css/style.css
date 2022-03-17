@@ -132,6 +132,10 @@ footer{
     background-color: var(--blue);
     height: 500px;
 }
+
+.rid-img {
+    width:2%;
+}
     
     
 
