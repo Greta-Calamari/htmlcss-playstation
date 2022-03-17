@@ -104,8 +104,20 @@ header{
     text-align: center;
    
 }
+
+/* fifth part */
+#ps-plus{
+    background-color: var(--gray);
     
-    
+}
+
+.btn-gray{
+    background-color:lightgray;
+    text-decoration: none;
+    font-weight: 500;
+}
+ /* sixth part  */
+ 
     
     
 
