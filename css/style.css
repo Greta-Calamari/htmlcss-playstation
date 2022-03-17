@@ -6,6 +6,7 @@
     --orange:#cd3d0f;
     --gray:#bebcbb;
     --light-black:#1f1f1f;
+    --font
 }
 
  /* header */
@@ -45,8 +46,9 @@ header{
 
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
+    background-position: -80px;
     background-size: cover;
-    height:900px ;
+    height:900px;
     margin-top: 120px;
 }
 
