@@ -99,6 +99,15 @@ header{
     background-color: var(--light-black);
     
 }
+.trans-it{
+    transition: all 0.5s ease-in 0.5s;
+    width: 200px;
+
+}
+.trans-it:hover{
+    
+   width: 205px;
+}
 
 .card-round{
     border-radius: 30px;
