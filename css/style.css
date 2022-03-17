@@ -31,9 +31,14 @@ header{
 }
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
-    he
+    background-size: cover;
+    height:900px ;
     margin-top: 120px;
 }
+
+
+/* jumbotron */
+
     
     
     
