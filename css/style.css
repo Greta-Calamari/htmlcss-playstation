@@ -132,9 +132,18 @@ footer{
     background-color: var(--blue);
     height: 500px;
 }
+.rid-img-logo{
+    width: 20%;
 
-.rid-img {
+}
+
+.rid-img-globe {
     width:2%;
+}
+
+.col-6 ul{
+    
+    list-style:none;
 }
     
     
