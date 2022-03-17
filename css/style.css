@@ -2,6 +2,7 @@
 :root {
     --blue: #00439c;
     --dark-blue:#161c3b;
+    --lightblue:#2d64e6;
     --white: #ffffff;
     --orange:#cd3d0f;
     --gray:#bebcbb;
@@ -38,7 +39,7 @@ header{
 
 .btn-round{
     border-radius: 30px;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -55,6 +56,13 @@ header{
 .btn-orange{
     background-color: var(--orange);
     text-decoration: none;
+}
+
+.btn-blue{
+    background-color: var(--lightblue);
+    text-decoration: none;
+    
+    
 }
 
 
