@@ -74,9 +74,25 @@ header{
   border:none ;
   opacity: 0.5;
   
-  
+}
+.trans-up:hover{
+   position: relative;
+   bottom: 20px; 
+   
+}
+.trans-up img:active{
+    border: 1px solid var(--lightblue);
     
 }
+ .img-round{
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+
+ }
+
+  
+    
 
 .col-2:hover .border-overlay{
     border-bottom:1px solid var(--lightblue);
