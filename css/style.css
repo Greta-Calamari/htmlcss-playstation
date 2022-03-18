@@ -79,6 +79,8 @@ header{
    position: relative;
    bottom: 20px; 
    
+
+   
 }
 .trans-up img:active{
     border: 1px solid var(--lightblue);
@@ -94,7 +96,7 @@ header{
   
     
 
-.col-2:hover .border-overlay{
+.hover-second:hover .border-overlay{
     border-bottom:1px solid var(--lightblue);
     width: 100%;
     height: 100%;
