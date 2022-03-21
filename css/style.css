@@ -9,6 +9,9 @@
     --light-black:#1f1f1f;
     --font
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
  /* header */
 header{
@@ -30,7 +33,7 @@ header{
 
     
  .img-container{
-     width: 8%;
+     width: 100px;
      padding: 10px;
  }  
    
@@ -47,6 +50,50 @@ header{
     text-align: center;
 }
 
+nav li{
+    display: inline;
+}
+
+.header-bottom .dropdown-toggle::after{
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.8rem;
+    font-weight: 900;
+    border: 0;
+    vertical-align: middle;
+    
+
+}
+
+.header-bottom .dropdown-toggle.show::after{
+    content: "\f106";
+}
+.header-bottom .list-inline-item img{
+    border: 1px solid transparent;
+    padding: 2px;
+    border-radius: 15px;
+    
+}
+.header-bottom .list-inline-item img:hover{
+    box-shadow: 1px 1px 10px #888888;
+
+}
+.header-bottom .list-style a{
+    color: black;
+    text-decoration: none;
+    
+}
+.header-bottom .list-style .circle::before{
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.5rem;
+    font-weight: 900;
+    display: inline-block;
+    color: #0d6efd;
+    margin: 0 5px 3px;
+    border: 0;
+    vertical-align: middle;
+}
 
 /* first section */
 
