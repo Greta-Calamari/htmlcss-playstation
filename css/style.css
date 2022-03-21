@@ -13,6 +13,37 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* hover bottoni */
+.btn-dark.btn-round:hover{
+    opacity: 0.5;
+}
+.btn-round{
+    padding: 6px 10px;
+    border-radius:100px;
+    text-align: center;
+}
+
+.btn-border{
+    padding: 7px 2px;
+    border-radius: 100px;
+    border: 3px solid transparent;
+    display: inline-block;
+}
+
+#playstation-5 .btn-border:hover, #playstation-4 .btn-border:hover{
+    border-color: var(--lightblue);
+}
+#jumbotron .btn-border:hover, #game-it .btn-border:hover{
+    border-color: var(--orange);
+}
+#ps-plus .btn-border:hover{
+    border-color: lightgray;
+}
+#ps-now .btn-border:hover{
+    border-color: #ffffff;
+}
+
+
 
 
  /* header */
@@ -46,11 +77,6 @@ header{
 }
 
 
-.btn-round{
-    border-radius: 30px;
-    padding: 10px;
-    text-align: center;
-}
 
 nav li{
     display: inline;
