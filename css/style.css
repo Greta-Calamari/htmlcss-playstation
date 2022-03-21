@@ -12,22 +12,25 @@
 
  /* header */
 header{
+    
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
     
+    
 }
 
 .header-top{
     background-color: black;
+    
 
 }
 
     
  .img-container{
-     width: 5%;
+     width: 8%;
      padding: 10px;
  }  
    
@@ -44,13 +47,16 @@ header{
     text-align: center;
 }
 
+
 /* first section */
 
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
     height:900px;
     margin-top: 120px;
+    padding: 17 em 0 5em;
 }
 
 .btn-orange{
@@ -78,6 +84,7 @@ header{
 .trans-up:hover{
    position: relative;
    bottom: 20px; 
+   
    
 
    
@@ -108,7 +115,7 @@ header{
 #game-it{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    height:900px;
+    background-position: center;
     
 }
 
@@ -121,9 +128,11 @@ header{
     transition: 1s all;
     
     
+    
 }
 .trans-it:hover{
     transform: scale(1.1, 1.1);
+    
    
 }
 
@@ -137,6 +146,10 @@ header{
 #ps-plus{
     background-color: var(--gray);
     
+    
+}
+.hero{
+    overflow: hidden;
 }
 
 .btn-gray{
@@ -158,7 +171,7 @@ header{
 /* seventh part */
 footer{
     background-color: var(--blue);
-    height: 500px;
+   
 }
 .rid-img-logo{
     width: 20%;
@@ -172,7 +185,7 @@ footer{
 .col-6 ul{
     color: white;
     list-style:none;
-    line-height: 40px;
+    
 }
 
 .sub-footer{
@@ -180,6 +193,5 @@ footer{
 }
     
     
-
     
     
